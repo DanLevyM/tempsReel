@@ -1,0 +1,9 @@
+GET http://localhost:3001/subscribe
+
+###
+POST http://localhost:3001/message
+Content-Type: application/json
+
+{
+  "msg": "my msg"
+}

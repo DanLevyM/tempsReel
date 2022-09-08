@@ -1,0 +1,9 @@
+GET http://localhost:3001/subscribe
+
+###
+POST http://localhost:3001/messages
+Content-Type: application/json
+
+{
+  "title": "New Notif"
+}
