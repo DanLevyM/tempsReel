@@ -6,7 +6,10 @@ const app = express();
 app.use(express.json());
 app.use(
 	cors({
-		origin: 'http://127.0.0.1:5500',
+		// VSC
+		// origin: 'http://127.0.0.1:5500',
+		// WEBSTORM
+		origin: 'http://localhost:63342',
 		credentials: true,
 	})
 );
